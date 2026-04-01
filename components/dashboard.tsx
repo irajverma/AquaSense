@@ -18,7 +18,7 @@ interface SensorData {
 }
 
 const DEFAULT_ESP32_URL = "http://192.168.1.100/api/sensors"
-const AWS_API_URL = "https://7ee6gxhkc3.execute-api.us-east-1.amazonaws.com/latest"
+const AWS_API_URL = "https://7ee6gxhkc3.execute-api.us-east-1.amazonaws.com/def/latest?device_id=unknown"
 
 type DataSource = "demo" | "esp32" | "aws"
 
