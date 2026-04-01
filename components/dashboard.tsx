@@ -280,7 +280,7 @@ export function Dashboard() {
             <p className="font-medium text-foreground">AWS Cloud API</p>
             <p>Data is pushed from IoT devices to AWS TimescaleDB/DynamoDB and served via API Gateway.</p>
             <div className="p-2 bg-background rounded border border-border">
-              <code>GET {new URL(AWS_API_URL).pathname}</code>
+              <code>GET {AWS_API_URL}</code>
             </div>
           </div>
           <div className="space-y-2">
